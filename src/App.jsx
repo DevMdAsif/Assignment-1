@@ -4,7 +4,7 @@ import Home from './component/Home/Home'
 
 export const App = () => {
   return (
-    <div className=" mt-10 ml-[10%] mr-[5%]">
+    <div className=" mt-10 ml-[2%] mr-[2%]">
       <Header />
       <Home />
     </div>
