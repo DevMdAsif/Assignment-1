@@ -3,8 +3,10 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCropSimple } from "@fortawesome/free-solid-svg-icons";
 
-export const Knowledge = (props) => {
-  const { name, titel, img, profile_img, length, tag1, tag2 } = props.info;
+export const Knowledge = ({info , handeltime}) => {
+  const { name, titel, img, profile_img, duration, tag1, tag2 } =info;
+
+
   return (
     <div className="w-[845px] h-[821px] border-2 mt-8">
       <img className="w-[845px] h-[450px]" src={img} alt="" />
@@ -18,14 +20,14 @@ export const Knowledge = (props) => {
             </div>
           </div>
           <p className=" pt-5 pr-2">
-            {length} min read <FontAwesomeIcon icon={faCropSimple} />
+            {duration} min read <FontAwesomeIcon icon={faCropSimple} />
           </p>
         </div>
         <p className=" pt-5 text-4xl font-bold pb-3">{titel}</p>
         <p className=" text-xl pt-5">
           #{tag1} <span className=" pl-4">#{tag2}</span>
         </p>
-        <p className=" text-[#6047EC] underline underline-offset-4 font-bold cursor-pointer text-xl pt-5">
+        <p onClick={()=>handeltime(duration)} className=" text-[#6047EC] underline underline-offset-4 font-bold cursor-pointer text-xl pt-5">
           Mark as read
         </p>
       </div>
