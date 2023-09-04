@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "name": "Mr.raju",
+    "profile_img": "https://t4.ftcdn.net/jpg/02/14/74/61/360_F_214746128_31JkeaP6rU0NzzzdFC4khGkmqc8noe6h.jpg",
+    "img": "https://img.freepik.com/premium-vector/isometric-developing-programming-coding-technologies-young-programmer-coding-new-project-using-computer-man-sitting-big-laptop-working_589019-2494.jpg?w=740",
+    "duration": 5,
+    "titel": "How to get your first job as a self-taught programmer",
+    "tag1": "beginners",
+    "tag2": "programming"
+  },
+  {
+    "id": "2",
+    "name": "Mrs. Setara",
+    "profile_img": "https://media.istockphoto.com/id/1399565382/photo/young-happy-mixed-race-businessman-standing-with-his-arms-crossed-working-alone-in-an-office.webp?b=1&s=170667a&w=0&k=20&c=ZAXJYLesh6gSd9huAgpy6rjpR4z-IFVH9MpxrKIXCrs=",
+    "img": "https://img.freepik.com/free-photo/indian-software-engineer-working-his-laptop_53876-95098.jpg?size=626&ext=jpg&ga=GA1.2.1277108008.1692976915&semt=ais",
+    "duration": 20,
+    "titel": "How to get your first job as a self-taught programmer",
+    "tag1": "beginners",
+    "tag2": "programming"
+  },
+  {
+    "id": "3",
+    "name": "Mina Mostofa",
+    "profile_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZC_95EVYM_FcC4b-LJg6XHL4p1E673azPuTMH92vOjnVJE0-dIyTszYt6teIip0PPcQs&usqp=CAU",
+    "img": "https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?size=626&ext=jpg&ga=GA1.1.1277108008.1692976915&semt=ais",
+    "duration": 15,
+    "titel": "How to get your first job as a self-taught programmer",
+    "tag1": "beginners",
+    "tag2": "programming"
+  },
+  {
+    "id": "4",
+    "name": "Mr.Asif",
+    "profile_img": "https://t4.ftcdn.net/jpg/02/86/47/09/360_F_286470965_viaHM6ZNjrcvLENe14yWQFi1jEm2jKeV.jpg",
+    "img": "https://img.freepik.com/free-vector/hand-drawn-flat-design-devops-illustration_23-2149387396.jpg?size=626&ext=jpg&ga=GA1.1.1277108008.1692976915&semt=ais",
+    "duration": 10,
+    "titel": "How to get your first job as a self-taught programmer",
+    "tag1": "beginners",
+    "tag2": "programming"
+  }
+]
